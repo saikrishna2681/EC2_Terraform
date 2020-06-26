@@ -5,4 +5,3 @@ resource "aws_internet_gateway" "igw" {
     Name = "my-igw"
   }
 }
-»
