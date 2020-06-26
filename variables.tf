@@ -19,3 +19,10 @@ variable "key_path" {
   description = "SSH Public Key path"
   default = "/home/core/.ssh/id_rsa.pub"
 }
+
+
+
+variable "ami" {
+  description = "Amazon Linux AMI"
+  default = "ami-026dea5602e368e96"
+}
