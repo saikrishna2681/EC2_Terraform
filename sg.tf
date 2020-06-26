@@ -31,7 +31,7 @@ resource "aws_security_group" "sgweb" {
   }
   vpc_id="${aws_vpc.main.id}"
 
-  tags {
+  tags = {
     Name = "Web Server SG"
   }
 }
