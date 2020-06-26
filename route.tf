@@ -6,7 +6,7 @@ resource "aws_route_table" "web-public-rt" {
     gateway_id = "${aws_internet_gateway.igw.id}"
   }
 
-  tags {
+  tags = {
     Name = "Public Subnet RT"
   }
 }
