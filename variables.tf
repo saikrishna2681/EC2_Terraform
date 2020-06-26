@@ -17,7 +17,7 @@ variable "private_subnet_cidr" {
 }
 variable "key_path" {
   description = "SSH Public Key path"
-  default = "/home/core/.ssh/id_rsa.pub"
+  default = "sai.pem"
 }
 
 
