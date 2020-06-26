@@ -1,7 +1,7 @@
 
 # Define webserver inside the public subnet
 resource "aws_instance" "wb" {
-   ami  = "${var.ami}"
+   ami  = "ami-026dea5602e368e96"
    instance_type = "t2.micro"
    key_name = "sai"
    subnet_id = "${aws_subnet.public_subnet.id}"
