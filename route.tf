@@ -1,5 +1,5 @@
 resource "aws_route_table" "web-public-rt" {
-  vpc_id = "${aws_vpc.default.id}"
+  vpc_id = "${aws_vpc.main.id}"
 
   route {
     cidr_block = "0.0.0.0/0"
